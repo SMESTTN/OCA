@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>L372</title>
+  <link rel="stylesheet" type="text/css" href="stylelist.css">
+  <style>
+    body {
+      font-family: 'Times New Roman';
+      margin: 20px;
+    }
+    h1 {
+      color: green;
+      font-size: 50px;
+      font-family: 'Times New Roman';
+    }
+    h2 {
+      color: black;
+      font-size: 20px;
+      font-family: 'Times New Roman';
+    }
+    h3 {
+      color: pink;
+      font-size: 20px;
+      font-family: 'Times New Roman';
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <center>
+    Welcome to L372 !!!<br><br>
+    </center>
+  </h1>
+  <div>
+    <label for="search-input">Keywords:</label>
+    <input type="text" id="search-input" placeholder="Keywords">
+    <label for="category-select">Category:</label>
+    <select id="category-select">
+      <option value="">All</option>
+      <option value="Document">Document </option>
+      <option value="Picture">Picture</option>
+      <option value="Sound">Sound</option>
+      <option value="Video">Video</option>
+      <option value="URL">URL</option>
+      <option value="OthersFile">Others File</option>
+    </select>
+    <button onclick="search()">Search</button>
+  </div>
+  <div id="search-results"></div>
+
+  <script src="scriptlist.js"></script>
+</body>
+</html>

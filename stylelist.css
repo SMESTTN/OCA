@@ -1,0 +1,25 @@
+/* สไตล์เพิ่มเติมที่คุณต้องการ */
+
+h1 {
+    text-align: center;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+  }
+  
+  #search-results {
+    margin-top: 20px;
+  }
+
+body{
+    background-color: skyblue;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+  
