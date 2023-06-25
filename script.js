@@ -11,6 +11,10 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
         alert("Success !!!");
         // Redirect to another website
         window.location.href = "L372 Config UI.html";
+    } else if (email === "vip378@ip.oca.sme" && password === "Pakorn Rattanaksri") {
+        alert("Success !!!");
+        // Redirect to another website
+        window.location.href = "L372 Config UI.html";
     } else {
       alert("Your username or password is wrong !!!");
     }
