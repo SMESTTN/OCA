@@ -1,7 +1,16 @@
 // Sample data (hypothetical)
 const files = [
     { name: 'Webpage', category: 'URL', type: 'link', url: 'https://smetnst.github.io/SME_16/Webpage.html' },
-    { name: 'Financial', category: 'Document', type: 'link', url: ''},
+    { name: 'Google', category: 'URL', type: 'link', url: 'https://www.google.com' },
+    { name: 'Youtube', category: 'URL', type: 'link', url: 'https://www.youtube.com' },
+    { name: 'Canva', category: 'URL', type: 'link', url: 'https://www.canva.com' },
+    { name: 'ChatGPT', category: 'URL', type: 'link', url: 'https://chat.openai.com/' },
+    
+
+    { name: 'Pad A', category: 'Document', type: 'link', url: 'AAA.txt'},
+    { name: 'Namem110', category: 'Document', type: 'link', url: 'JKL.txt'},
+    { name: 'leaderm110', category: 'Document', type: 'link', url: 'AAB.txt'},
+    
     // Add more files and categories as needed
   ];
   
