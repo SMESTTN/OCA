@@ -5,6 +5,10 @@ const files = [
     { name: 'Youtube', category: 'URL', type: 'link', url: 'https://www.youtube.com' },
     { name: 'Canva', category: 'URL', type: 'link', url: 'https://www.canva.com' },
     { name: 'ChatGPT', category: 'URL', type: 'link', url: 'https://chat.openai.com/' },
+    { name: 'Top Nai Run', category: 'URL', type: 'link', url: 'https://www.youtube.com/watch?v=RMjNQKJuPCw' },
+    { name: 'Danza Kuduro', category: 'URL', type: 'link', url: 'https://www.youtube.com/watch?v=7zp1TbLFPp8' },
+    { name: 'Shape of you', category: 'URL', type: 'link', url: 'https://www.youtube.com/watch?v=JGwWNGJdvx8' },
+    { name: 'See you again', category: 'URL', type: 'link', url: 'https://www.youtube.com/watch?v=RgKAFK5djSk' },
     
 
     { name: 'Pad A', category: 'Document', type: 'link', url: 'AAA.txt'},
